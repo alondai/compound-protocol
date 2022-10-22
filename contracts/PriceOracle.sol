@@ -5,7 +5,7 @@ import "./CToken.sol";
 
 abstract contract PriceOracle {
     /// @notice Indicator that this is a PriceOracle contract (for inspection)
-    bool public constant isPriceOracle = true;
+    bool public constant isPriceOracle = false;
 
     /**
       * @notice Get the underlying price of a cToken asset
